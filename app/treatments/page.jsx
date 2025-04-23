@@ -27,7 +27,7 @@ const Treatments = () => {
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto"
           >
             <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none">
-              Indulge in our Luxurious Treatments
+              A session tailored to your needs
             </h2>
             <p className="lead max-w-[600px] mx-auto xl:mx-0">
               Tailored skincare solutions for a healthy complexion, offering

@@ -55,8 +55,8 @@ const Contact = () => {
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">Phone number</h4>
                   <div className="pt-1 flex-1">
-                    <p>Phone: +99(0) 999 333 667</p>
-                    <p>Fax: +99(0) 999 322 678</p>
+                    <p>Phone: +60(0) 163 401 229</p>
+                    <p></p>
                   </div>
                 </div>
               </div>
@@ -70,8 +70,8 @@ const Contact = () => {
                 <div className="pt-1 flex-1">
                   <h4 className="h4 mb-2">Email address</h4>
                   <div className="flex flex-col gap-1">
-                    <p>info@youremail.com</p>
-                    <p>support@youremail.com</p>
+                    <p>admin@samanthatheclair.com</p>
+                    <p></p>
                   </div>
                 </div>
               </div>

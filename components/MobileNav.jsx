@@ -17,7 +17,7 @@ const links = [
   },
   {
     href: "/treatments",
-    name: "Treatments",
+    name: "Sessions",
   },
   {
     href: "/contact",

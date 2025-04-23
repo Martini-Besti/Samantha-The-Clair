@@ -1,6 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link"; // Import Link from next/link
 import { useContext } from "react";
 import { CursorContext } from "@/components/CursorContext";
 import StatsItem from "@/components/StatsItem";
@@ -28,7 +29,7 @@ const About = () => {
             className="relative w-[304px] h-[423px] xl:w-[384px] xl:h-[534px] mb-8 xl:mx-0"
           >
             <Image
-              src="/assets/about/img.jpg"
+              src="/assets/about/sam.png"
               fill
               quality={100}
               priority
@@ -49,30 +50,44 @@ const About = () => {
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto xl:mx-0"
           >
             <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none">
-              Committed to Your Skin's Health and Beauty
+              Committed to providing a compassionate and personalised
+              experience honoring your journey.
             </h2>
             <p className="lead max-w-[600px] mx-auto xl:mx-0">
-              Tailored skincare solutions for a healthy complexion, offering
-              customized care for radiant skin
+              Mediumship thoughtfully tailored to align with your comfort in
+              mind. Ensuring a supportive and respectful experience in a safe
+              environment. Whether you prefer a quiet, reflective setting or a
+              more conversational approach, my process will guide you with
+              sensitivity to your emotion and spiritual needs. This personalised
+              approach allows for a more meaningful connection and fosters a
+              sense of ease and trust during your session.
             </p>
             {/* items */}
             <div className="grid grid-cols-3 gap-[30px] mb-14 mx-auto xl:mx-0">
               <div>
-                <StatsItem countNum={13} text="Years On Market" />
-              </div>
-              <div>
-                <StatsItem countNum={35} countText="k+" text="Happy Clients" />
+                <StatsItem countNum={2} text="Years communicating" />
               </div>
               <div>
                 <StatsItem
-                  countNum={97}
-                  countText="%"
-                  text="Natural Ingredients"
+                  countNum={150}
+                  countText="+"
+                  text="Healing clients"
                 />
+              </div>
+              <div>
+                <StatsItem countNum={100} countText="%" text="Your journey" />
               </div>
             </div>
             {/* btn */}
-            <button className="btn mx-auto xl:mx-0">Contact us</button>
+            <Link href="/contact" passHref>
+              <button 
+                className="btn mx-auto xl:mx-0"
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+              >
+                Contact me
+              </button>
+            </Link>
           </motion.div>
         </div>
       </div>

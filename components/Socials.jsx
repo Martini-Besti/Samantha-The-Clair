@@ -21,7 +21,7 @@ const Socials = ({ containerStyles }) => {
         </Link>
       </li>
       <li>
-        <Link href="/">
+        <Link href="https://www.instagram.com/samanthatheclair/" target="_blank" rel="noopener noreferrer">
           <FaInstagram />
         </Link>
       </li>

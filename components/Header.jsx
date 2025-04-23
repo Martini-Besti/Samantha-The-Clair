@@ -33,12 +33,12 @@ const Header = () => {
               {/* phone */}
               <div className="flex items-center gap-2 text-white">
                 <FaPhoneAlt />
-                <span>+99(0) 999 333 667</span>
+                <span>+60 (0) 163 401 229 </span>
               </div>
               {/* email */}
               <div className="flex items-center gap-2 text-white">
                 <IoMdMail />
-                <span>info@youremail.com</span>
+                <span>admin@samanthatheclair.com</span>
               </div>
             </motion.div>
             {/* socials */}
@@ -57,17 +57,7 @@ const Header = () => {
         <motion.div
           onMouseEnter={mouseEnterHandler}
           onMouseLeave={mouseLeaveHandler}
-        >
-          <Link href="/">
-            <Image
-              src="/assets/logo.svg"
-              width={120}
-              height={44}
-              priority
-              alt=""
-            />
-          </Link>
-        </motion.div>
+        ></motion.div>
         {/* mobile nav trigger */}
         <div
           className="xl:hidden cursor-pointer"

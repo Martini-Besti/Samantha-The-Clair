@@ -19,8 +19,8 @@ const ModalVideo = () => {
         <ReactPlayer
           width={"100%"}
           height={"100%"}
-          url="https://www.youtube.com/watch?v=Er5a7snyQKM"
-          muted
+          url="https://www.youtube.com/shorts/W80xZkO2LRg"
+          
         />
       </DialogContent>
     </Dialog>

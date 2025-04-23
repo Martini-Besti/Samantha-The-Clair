@@ -26,15 +26,18 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#473936",
+          //dark olive green
+          DEFAULT: "#394b40",
         },
         secondary: {
-          DEFAULT: "#f2dfce",
+          //light green backround like other website
+          DEFAULT: "#bde5cd",
           100: "#cea39c",
         },
         accent: {
-          DEFAULT: "#f19687",
-          100: "#f2d5c5",
+          //light blue button colour
+          DEFAULT: "#6d96af",
+          100: "#9cb0a4",//light grey/olive for accross screen
         },
       },
       keyframes: {
