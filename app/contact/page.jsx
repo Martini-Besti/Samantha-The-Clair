@@ -102,3 +102,6 @@
 // };
 
 // export default Contact;
+export default function ContactPage() {
+    return null; // Temporarily disables the page
+  }
