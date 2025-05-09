@@ -24,10 +24,10 @@ const links = [
     href: "/testimonials",
     name: "Testimonials",
   },
-  // {
-  //   href: "/contact",
-  //   name: "Contact",
-  // },
+  {
+    href: "/contact",
+    name: "Contact",
+  },  
 ];
 
 const MobileNav = ({ setMobileNav }) => {

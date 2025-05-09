@@ -86,16 +86,15 @@ const About = () => {
               </div>
             </div>
             {/* btn */}
-            <button
-              className="btn mx-auto xl:mx-0"
-              onClick={() =>
-                window.open("https://samanthatheclair.as.me", "_blank")
-              }
-              onMouseEnter={mouseEnterHandler}
-              onMouseLeave={mouseLeaveHandler}
-            >
-              Book a Reading
-            </button>
+            <Link href="/contact" passHref>
+              <button
+                className="btn mx-auto xl:mx-0"
+                onMouseEnter={mouseEnterHandler}
+                onMouseLeave={mouseLeaveHandler}
+              >
+                Contact me
+              </button>
+            </Link>
           </motion.div>
         </div>
       </div>
