@@ -68,6 +68,7 @@ const About = () => {
               healing from past patterns, or learning to trust your inner voice,
               I’m here to walk beside you, with clarity, compassion, and a
               little cosmic magic. Let’s see what your soul is ready to reveal.
+              <br />
               <br />✨ With Love,
               <br />
               <br />
