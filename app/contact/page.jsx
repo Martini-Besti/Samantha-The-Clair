@@ -14,8 +14,8 @@ const Contact = () => {
       className="min-h-screen flex items-center overflow-x-hidden"
     >
       <div className="container mx-auto pt-48 pb-12 xl:pt-32 xl:pb-0">
-        <div className="flex flex-col gap-12 xl:flex-row h-full">
-          {/* text */}
+        <div className="flex flex-col xl:flex-row gap-12 h-full">
+          {/* Contact info (left side) */}
           <motion.div
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
@@ -66,6 +66,27 @@ const Contact = () => {
                   <p>admin@samanthatheclair.com</p>
                 </div>
               </div>
+            </div>
+          </motion.div>
+
+          {/* Image (right side) */}
+          <motion.div
+            initial={{ opacity: 0, x: 60 }}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: { delay: 2.2, duration: 0.8, ease: "easeInOut" },
+            }}
+            className="flex-1 flex justify-center items-center"
+          >
+            <div className="w-[90%] sm:w-[80%] md:w-[70%] xl:w-[500px]">
+              <Image
+                src="/assets/contact/samGarden.jpg"
+                width={800}
+                height={600}
+                alt="Sam Garden"
+                className="rounded-xl shadow-xl w-full h-auto object-cover"
+              />
             </div>
           </motion.div>
         </div>
