@@ -50,17 +50,23 @@ const About = () => {
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto xl:mx-0"
           >
             <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none">
-              Committed to providing a compassionate and personalised
-              experience honoring your journey.
+              About me
             </h2>
             <p className="lead max-w-[600px] mx-auto xl:mx-0">
-              Mediumship thoughtfully tailored to align with your comfort in
-              mind. Ensuring a supportive and respectful experience in a safe
-              environment. Whether you prefer a quiet, reflective setting or a
-              more conversational approach, my process will guide you with
-              sensitivity to your emotion and spiritual needs. This personalised
-              approach allows for a more meaningful connection and fosters a
-              sense of ease and trust during your session.
+              Hi! I’m Samantha, a Psychic Medium, Akashic Records Reader, and
+              Spiritual Guide. Through intuitive readings, soul-deep guidance,
+              and compassionate insight, I help you uncover your past lives,
+              soul purpose, spiritual gifts, and the pathways that lead to
+              clarity, healing, and empowered decision-making in this life.
+              Whether we are connecting via Zoom, email, or in a workshop space,
+              my mission is always the same: to help you reconnect with your
+              inner knowing, trust your intuition, and align with your highest
+              truth. Whether you are seeking insight into your soul's journey,
+              healing from past patterns, or learning to trust your inner voice,
+              I’m here to walk beside you, with clarity, compassion, and a
+              little cosmic magic. Let’s see what your soul is ready to reveal.
+              <br/>✨ With Love,<br /><span className="ml-8 font-serif italic text-lg">Samantha</span>
+
             </p>
             {/* items */}
             <div className="grid grid-cols-3 gap-[30px] mb-14 mx-auto xl:mx-0">
@@ -80,7 +86,7 @@ const About = () => {
             </div>
             {/* btn */}
             <Link href="/contact" passHref>
-              <button 
+              <button
                 className="btn mx-auto xl:mx-0"
                 onMouseEnter={mouseEnterHandler}
                 onMouseLeave={mouseLeaveHandler}

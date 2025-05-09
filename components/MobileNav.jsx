@@ -17,12 +17,17 @@ const links = [
   },
   {
     href: "/treatments",
-    name: "Sessions",
+    name: "Readings",
   },
+
   {
-    href: "/contact",
-    name: "Contact",
+    href: "/testimonials",
+    name: "Testimonials",
   },
+  // {
+  //   href: "/contact",
+  //   name: "Contact",
+  // },
 ];
 
 const MobileNav = ({ setMobileNav }) => {

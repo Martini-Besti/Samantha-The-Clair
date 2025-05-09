@@ -53,7 +53,7 @@ const Home = () => {
                 onClick={handleBookingClick}
                 className="btn btn-lg"
               >
-                Book a Consultation
+                Book a Reading
               </motion.button>
               <motion.div
                 onMouseEnter={mouseEnterHandler}
