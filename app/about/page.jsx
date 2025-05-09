@@ -65,8 +65,9 @@ const About = () => {
               healing from past patterns, or learning to trust your inner voice,
               I’m here to walk beside you, with clarity, compassion, and a
               little cosmic magic. Let’s see what your soul is ready to reveal.
-              <br/>✨ With Love,<br /><span className="ml-8 font-serif italic text-lg">Samantha</span>
-
+              <br />✨ With Love,
+              <br />
+              <span className="ml-8 font-serif italic text-lg">Samantha</span>
             </p>
             {/* items */}
             <div className="grid grid-cols-3 gap-[30px] mb-14 mx-auto xl:mx-0">
@@ -85,15 +86,16 @@ const About = () => {
               </div>
             </div>
             {/* btn */}
-            <Link href="/contact" passHref>
-              <button
-                className="btn mx-auto xl:mx-0"
-                onMouseEnter={mouseEnterHandler}
-                onMouseLeave={mouseLeaveHandler}
-              >
-                Contact me
-              </button>
-            </Link>
+            <button
+              className="btn mx-auto xl:mx-0"
+              onClick={() =>
+                window.open("https://samanthatheclair.as.me", "_blank")
+              }
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaveHandler}
+            >
+              Book a Reading
+            </button>
           </motion.div>
         </div>
       </div>
