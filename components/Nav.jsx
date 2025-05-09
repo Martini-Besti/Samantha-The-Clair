@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import { useContext } from "react";
 import { CursorContext } from "./CursorContext";
@@ -16,7 +18,6 @@ const links = [
     href: "/treatments",
     name: "Readings",
   },
-
   {
     href: "/testimonials",
     name: "Testimonials",
@@ -29,6 +30,8 @@ const links = [
 
 const Nav = () => {
   const pathname = usePathname();
+  const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
+  
   return (
     <nav>
       <div className="container mx-auto flex gap-8">
@@ -39,7 +42,9 @@ const Nav = () => {
               key={index}
               className={`${
                 pathname === link.href && "border-b-2 border-accent"
-              } uppercase`}
+              } uppercase hover:text-accent`}
+              onMouseEnter={mouseEnterHandler}
+              onMouseLeave={mouseLeaveHandler}
             >
               {link.name}
             </Link>
