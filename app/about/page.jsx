@@ -57,15 +57,16 @@ const About = () => {
               Spiritual Guide. Through intuitive readings, soul-deep guidance,
               and compassionate insight, I help you uncover your past lives,
               soul purpose, spiritual gifts, and the pathways that lead to
-              clarity, healing, and empowered decision-making in this life.
+              clarity, healing, and empowered decision-making in this life. <br />
               Whether we are connecting via Zoom, email, or in a workshop space,
               my mission is always the same: to help you reconnect with your
               inner knowing, trust your intuition, and align with your highest
-              truth. Whether you are seeking insight into your soul's journey,
+              truth. <br /> Whether you are seeking insight into your soul's journey,
               healing from past patterns, or learning to trust your inner voice,
               I’m here to walk beside you, with clarity, compassion, and a
               little cosmic magic. Let’s see what your soul is ready to reveal.
               <br />✨ With Love,
+              <br />
               <br />
               <span className="ml-8 font-serif italic text-lg">Samantha</span>
             </p>
