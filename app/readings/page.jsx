@@ -34,7 +34,7 @@ const Readings = () => {
             style={{ borderRadius: "0.5rem" }}
           >
             <Image
-              src="/assets/readings/candle.jpg"
+              src="/assets/readings/candle1.jpg"
               fill
               quality={100}
               alt=""
@@ -181,7 +181,7 @@ const Readings = () => {
               style={{ borderRadius: "0.5rem" }}
             >
               <Image
-                src="/assets/readings/candle.jpg"
+                src="/assets/readings/candle1.jpg"
                 fill
                 quality={100}
                 alt=""

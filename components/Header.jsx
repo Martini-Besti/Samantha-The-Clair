@@ -33,7 +33,7 @@ const Header = () => {
               {/* phone */}
               <div className="flex items-center gap-2 text-white">
                 <FaPhoneAlt />
-                <span>+60 (0) 163 401 229 </span>
+                <span>+6016 340 1229 </span>
               </div>
               {/* email */}
               <div className="flex items-center gap-2 text-white">
