@@ -15,12 +15,17 @@ const links = [
     name: "About",
   },
   {
-    href: "/treatments",
+    href: "/readings",
     name: "Readings",
   },
+
   {
     href: "/testimonials",
     name: "Testimonials",
+  },
+  {
+  href: "/courses&workshops",
+  name: "Courses & Workshops",
   },
   {
     href: "/contact",

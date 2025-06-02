@@ -16,10 +16,13 @@ const links = [
     name: "About",
   },
   {
-    href: "/treatments",
+    href: "/readings",
     name: "Readings",
   },
-
+{
+    href: "/courses&workshops",
+    name: "Courses & Workshops",
+},
   {
     href: "/testimonials",
     name: "Testimonials",
@@ -32,6 +35,11 @@ const links = [
 
 const MobileNav = ({ setMobileNav }) => {
   const pathname = usePathname();
+  
+  const handleLinkClick = () => {
+    setMobileNav(false);
+  };
+  
   return (
     <nav className="relative flex flex-col justify-between h-full p-8">
       <div
@@ -49,6 +57,7 @@ const MobileNav = ({ setMobileNav }) => {
               className={`${
                 pathname === link.href && "border-b-2 border-accent"
               } uppercase max-w-max mx-auto`}
+              onClick={handleLinkClick}
             >
               {link.name}
             </Link>

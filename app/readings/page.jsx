@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { CursorContext } from "@/components/CursorContext";
 
-const Treatments = () => {
+const Readings = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
 
   // Add the redirect function
@@ -34,7 +34,7 @@ const Treatments = () => {
             style={{ borderRadius: "0.5rem" }}
           >
             <Image
-              src="/assets/treatments/candle.jpg"
+              src="/assets/readings/candle.jpg"
               fill
               quality={100}
               alt=""
@@ -181,7 +181,7 @@ const Treatments = () => {
               style={{ borderRadius: "0.5rem" }}
             >
               <Image
-                src="/assets/treatments/candle.jpg"
+                src="/assets/readings/candle.jpg"
                 fill
                 quality={100}
                 alt=""
@@ -217,4 +217,4 @@ const Treatments = () => {
   );
 };
 
-export default Treatments;
+export default Readings;
