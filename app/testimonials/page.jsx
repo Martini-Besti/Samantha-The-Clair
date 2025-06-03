@@ -73,9 +73,12 @@ const Testimonials = () => {
           onMouseLeave={mouseLeaveHandler}
           className="text-center mb-12"
         >
-          <h2 className="h2 mb-6">Testimonials</h2>
+          <h2 className="h2 mb-6 mx-auto max-w-[540px] xl:max-w-none mt-6 xl:mt-0">
+            Testimonials
+          </h2>
           <p className="lead max-w-[600px] mx-auto">
-            Kind words from those I've had the privilege to guide on their spiritual journey.
+            Kind words from those I've had the privilege to guide on their
+            spiritual journey.
           </p>
         </motion.div>
 
@@ -95,9 +98,7 @@ const Testimonials = () => {
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
             >
-              <p className="text-[15px] mb-4 italic">
-                {item.text}
-              </p>
+              <p className="text-[15px] mb-4 italic">{item.text}</p>
               <p className="text-right font-medium">— {item.name}</p>
             </div>
           ))}
