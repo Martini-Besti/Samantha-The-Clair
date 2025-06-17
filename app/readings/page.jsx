@@ -63,11 +63,16 @@ const Readings = () => {
                 today. Includes the opportunity to connect with your spirit
                 guide or a loved one in spirit for heartfelt insight.
                 <br />
-                🌀 Zoom (MYR 300) – 1-hour live session
+                🌀 Zoom (MYR 300) – 1 hour live session
                 <br />
                 📩 Email (MYR 250) – Written reading, up to 5 questions
                 <br />
                 🔮 Zoom + Email (MYR 400) – Live session + written summary
+                <br />
+                Optional Zoom Add-On Time:
+                <br />
+                ➕ 30 mins – Additional RM150
+                <br />➕ 1 hour – Additional RM300
               </p>
             </div>
 
@@ -89,6 +94,11 @@ const Readings = () => {
                 📩 Email (MYR 150) – Written reading, up to 5 questions
                 <br />
                 🔮 Zoom + Email (MYR 350) – Live session + email summary
+                <br />
+                Optional Zoom Add-On Time:
+                <br />
+                ➕ 30 mins – Additional RM125
+                <br />➕ 1 hour – Additional RM250
               </p>
             </div>
 
@@ -211,11 +221,16 @@ const Readings = () => {
                   life today. Includes the opportunity to connect with your
                   spirit guide or a loved one in spirit for heartfelt insight.
                   <br />
-                  🌀 Zoom (MYR 300) – 1-hour live session
+                  🌀 Zoom (MYR 300) – 1 hour live session
                   <br />
                   📩 Email (MYR 250) – Written reading, up to 5 questions
                   <br />
                   🔮 Zoom + Email (MYR 400) – Live session + written summary
+                  <br />
+                  Optional Zoom Add-On Time:
+                  <br />
+                  ➕ 30 mins – Additional RM150
+                  <br />➕ 1 hour – Additional RM300
                 </p>
               </div>
 
@@ -233,11 +248,16 @@ const Readings = () => {
                   heartfelt insight. This reading does not include past life
                   insights.
                   <br />
-                  🌀 Zoom (MYR 250) – 1-hour live session
+                  🌀 Zoom (MYR 250) – 1 hour live session
                   <br />
                   📩 Email (MYR 150) – Written reading, up to 5 questions
                   <br />
                   🔮 Zoom + Email (MYR 350) – Live session + email summary
+                  <br />
+                  Optional Zoom Add-On Time:
+                  <br />
+                  ➕ 30 mins – Additional RM125
+                  <br />➕ 1 hour – Additional RM250
                 </p>
               </div>
 

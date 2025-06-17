@@ -14,43 +14,52 @@ const Testimonials = () => {
   const allTestimonials = [
     {
       text: `"Thank you so much Sam for my reading you delved into a past life that resonated so much to this life and inturn I was able to pin point some trauma that I had hidden. You were spot on! Not only did you clarify my own psychic gifts to work on you gave me so much motivation to keep going at my pace and confirmation I'm on the right path!"`,
-      name: "Shannon",
+      name: "Shannon 🇦🇺",
     },
     {
       text: `"Sam accessed my records and she was spot on. Everything she said resonated with me and gave me goosebumps (confirmation). I had wondered where certain fears and challenges had come from during this lifetime and Sam was able to pinpoint where these originated. I feel like I have a better understanding of my soul and life purpose."`,
-      name: "Lana",
+      name: "Lana 🇳🇿 🇦🇺",
     },
     {
       text: `"It was my first time ever with the Akashic Records, I had no expectations but everything that came up resonated so much. I got reassured that I am on my authentic path and I am doing the right things for me and my family. Samantha is highly intuitive and she is here to share her light."`,
-      name: "Lyuba",
+      name: "Lyuba 🇲🇾 🇷🇺",
     },
     {
       text: `"My readings from Samantha have been relevant and provided me with much needed guidance. Samantha delivers messages sensitively and positively. I have recommended her to many friends who have also then had readings which were accurate and timely. Samantha is lovely to speak to and has helped me through some uncertain times. I will definitely be going back!"`,
-      name: "Cait",
+      name: "Cait 🇦🇺 🇮🇷",
     },
     {
       text: `"It was my first time hearing about the Akashic Records. I've been feeling lost and overwhelmed for about a month. After I had a session with Samantha I feel lighter and I now feel I have a sense of direction. She also gave me the courage to make a decision regarding a challenging situation. I feel like I know more about who I am and I deserve so much more. Thank you so much Samantha."`,
-      name: "Hongyee",
+      name: "Hongyee 🇲🇾",
     },
     {
       text: `"Holy sh*t! Samantha was spot on when describing my future (now current) partner! I had been single for a while at the time and was feeling discouraged when I did a reading with her. I was at the verge of giving up dating when she told me to not give up and she can sense that he is really close by. She then proceeded to tell me details about his age, height, hair & eye color, etc. It didnt make sense at the time, but after a month or so, I actually met him! If you're having doubts, don't, because she is the real deal!!"`,
-      name: "Ashley H",
+      name: "Ashley H 🇲🇾",
     },
     {
       text: `"Thank you Sam for the akashic reading. It resonates with what has been currently happening in my life. Getting to know my past lives has given me the clarity. This provides me on how to move forward as well. I would recommend this experience for anyone who wanted to tap into their records and gain further clarity."`,
-      name: "Shelley",
+      name: "Shelley 🇲🇾 🇮🇩",
     },
     {
       text: `"Samantha is truly one of the most gifted, compassionate souls I have ever encountered. After my major breakup left me shattered and lost, she became my anchor. Her readings were incredibly accurate, detailed, and so thoughtfully organized that even in my confusion, her words brought me clarity and hope. Her psychic abilities are nothing short of extraordinary. It felt as though she could see into my heart and soul, guiding me through pain I thought I would never survive."`,
-      name: "Anonymous",
+      name: "Anonymous 🇲🇾",
     },
     {
       text: `"I had the pleasure of receiving an Akashic record reading from Samantha. It was mind-blowing how themes from my past lives related scenarios in this life. I love this about the Akashie records, you can look into patterns from past lives to discover the why behind repeating cycles and then work towards changing them. Her accuracy and ability to bring up things I've never verbally expressed to someone was so magical and healing."`,
-      name: "Charlene",
+      name: "Charlene 🇦🇺",
     },
     {
       text: `"Thank you for the enlightening session today! It was informative and empowering! I love how patient you are in helping me seek clarity. Your profound sharing has given me courage to move forward with hope and faith! Thank you very much for all that you do and I look forward to having a session with you again!"`,
-      name: "Amber",
+      name: "Amber 🇲🇾",
+    },
+    {
+      text: `"I would like to write a testimonial to support Sam and her workshop that I attended in March 2025. The workshop was ‘Work with your Clairs: Psychic Development’.
+    The course was phenomenal, and I’m not just saying that! 
+    Not only did I find the theory and content of the course extremely enriching, I also felt very aligned and in tune when completing various practical activities, which Sam had carefully curated to enhance and strengthen our Clairs. 
+    Sam was fantastic as a mentor, and created a safe space, which allowed us to be ourselves and feel relaxed. She guided us through the course at a nice and consistent speed. There was never a problem with asking any questions as Sam answered quite simply, with great clarity and no judgment. My fellow students and I were able to share all kinds of stories about our lives, spiritual journeys etc. 
+    It really was a wonderful experience. I have begun to apply and incorporate some of the Clairs into my own practice - especially when channeling messages from spirit. 
+    I wholeheartedly recommend this workshop to anyone ready to deepen their psychic awareness. Thanks Sam, you were amazing!"`,
+      name: "Alex L 🇬🇧",
     },
   ];
 
