@@ -19,11 +19,14 @@ const Workshops = () => {
     >
       <div className="container mx-auto flex flex-col items-center pt-36 pb-12 xl:pt-32 xl:pb-0">
         <div className="w-full h-full flex flex-col xl:flex-row items-start justify-between gap-10">
-          
           {/* Main Content */}
           <motion.div
             initial={{ opacity: 0, x: -60 }}
-            animate={{ opacity: 1, x: 0, transition: { delay: 2, duration: 0.8, ease: "easeInOut" } }}
+            animate={{
+              opacity: 1,
+              x: 0,
+              transition: { delay: 2, duration: 0.8, ease: "easeInOut" },
+            }}
             onMouseEnter={mouseEnterHandler}
             onMouseLeave={mouseLeaveHandler}
             className="flex flex-col items-start xl:max-w-[650px] text-center xl:text-left mx-auto"
@@ -44,15 +47,23 @@ const Workshops = () => {
               <div className="flex flex-col items-center xl:items-start">
                 <div className="flex items-start gap-[12px] mb-4">
                   <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl font-semibold">1:1 Psychic Mediumship Coaching</h3>
+                  <h3 className="text-2xl font-semibold">
+                    1:1 Psychic Mediumship Coaching
+                  </h3>
                 </div>
 
                 <div className="pl-6 space-y-4">
                   <p className="text-[16px] leading-relaxed">
-                    Tailored mentorship to strengthen your intuition, psychic abilities, and connection to Spirit.
-                    We work together to grow your skills, confidence, and personal style as a reader.
+                    Tailored mentorship to strengthen your intuition, psychic
+                    abilities, and connection to Spirit. We work together to
+                    grow your skills, confidence, and personal style as a
+                    reader.
                   </p>
-
+                  <div className="flex flex-col text-[15px] font-medium mb-2 space-y-2 xl:justify-start justify-center">
+                    <span>Single Sessions:</span>
+                    <span>💫 60 mins — RM280 / ~AUD103</span>
+                    <span>💫 90 mins — RM400 / ~AUD147</span>
+                  </div>
                   <div className="flex flex-col text-[15px] font-medium mb-2 space-y-2 xl:justify-start justify-center">
                     <span>Packages:</span>
                     <span>💫 60 mins x 3 sessions: MYR650 / ~AUD239</span>
@@ -66,22 +77,38 @@ const Workshops = () => {
 
             {/* Work With Your Clairs — Psychic Development */}
             <div className="w-full mb-10 mx-auto xl:mx-0">
-            <div className="flex items-start gap-[12px] mb-4">
-                  <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl font-semibold">Work With Your Clairs — Psychic Development</h3>
-                </div>
+              <div className="flex items-start gap-[12px] mb-4">
+                <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
+                <h3 className="text-2xl font-semibold">
+                  Work With Your Clairs — Psychic Development
+                </h3>
+              </div>
               <p className="text-[16px] leading-relaxed mb-3">
-                Private 1:1 psychic development to discover your dominant clairs, strengthen your intuition & confidently read energy.
+                Private 1:1 psychic development to discover your dominant
+                clairs, strengthen your intuition & confidently read energy.
               </p>
-              <p className="text-[16px] leading-relaxed mb-3">🧘‍♀️ No group. Just YOU + ME unlocking your gifts through tailored guidance, practice, and spiritual tools.</p>
-              <p className="text-[16px] leading-relaxed mb-3">📅 Choose your pace:</p>
+              <p className="text-[16px] leading-relaxed mb-3">
+                🧘‍♀️ No group. Just YOU + ME unlocking your gifts through tailored
+                guidance, practice, and spiritual tools.
+              </p>
+              <p className="text-[16px] leading-relaxed mb-3">
+                📅 Choose your pace:
+              </p>
               <ul className="list-disc list-inside mb-3">
                 <li>2 Full-Day Immersion OR</li>
                 <li>4–6 Weekly/Fortnightly Zoom Sessions</li>
               </ul>
-              <p className="text-[16px] leading-relaxed mb-1">💰 RM1,500 / ~AUD550</p>
-              <p className="text-[16px] leading-relaxed mb-1">🎁 Includes 1 complimentary 60-min Psychic Mediumship Coaching session</p>
-              <p className="text-[14px] text-gray-500">*Please note daily exchange rates may change. You will be charged in MYR.</p>
+              <p className="text-[16px] leading-relaxed mb-1">
+                💰 RM1,500 / ~AUD550
+              </p>
+              <p className="text-[16px] leading-relaxed mb-1">
+                🎁 Includes 1 complimentary 60-min Psychic Mediumship Coaching
+                session
+              </p>
+              <p className="text-[14px] text-gray-500">
+                *Please note daily exchange rates may change. You will be
+                charged in MYR.
+              </p>
             </div>
           </motion.div>
 
@@ -89,7 +116,11 @@ const Workshops = () => {
           <div className="hidden xl:flex flex-col items-center">
             <motion.div
               initial={{ opacity: 0, x: 60 }}
-              animate={{ opacity: 1, x: 0, transition: { delay: 2.4, duration: 0.8, ease: "easeInOut" } }}
+              animate={{
+                opacity: 1,
+                x: 0,
+                transition: { delay: 2.4, duration: 0.8, ease: "easeInOut" },
+              }}
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
               className="w-[384px] h-[534px] relative rounded-lg overflow-hidden mb-6"
@@ -110,7 +141,11 @@ const Workshops = () => {
             {/* Oracle Image */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0, transition: { delay: 3, duration: 0.8, ease: "easeInOut" } }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                transition: { delay: 3, duration: 0.8, ease: "easeInOut" },
+              }}
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
               className="mt-6 w-[400px] h-[250px] relative rounded-lg overflow-hidden shadow-lg"
@@ -129,7 +164,11 @@ const Workshops = () => {
           <div className="flex flex-col items-center mb-10 xl:hidden">
             <motion.div
               initial={{ opacity: 0, y: -30 }}
-              animate={{ opacity: 1, y: 0, transition: { delay: 2.4, duration: 0.8, ease: "easeInOut" } }}
+              animate={{
+                opacity: 1,
+                y: 0,
+                transition: { delay: 2.4, duration: 0.8, ease: "easeInOut" },
+              }}
               onMouseEnter={mouseEnterHandler}
               onMouseLeave={mouseLeaveHandler}
               className="w-[300px] h-[380px] relative rounded-lg overflow-hidden mb-6"
@@ -144,7 +183,7 @@ const Workshops = () => {
             </motion.div>
 
             <button className="btn mb-6" onClick={handleDiscoverMoreClick}>
-              Book a Workshop
+              Contact Me
             </button>
           </div>
         </div>
