@@ -54,25 +54,23 @@ const Readings = () => {
             <div className="flex-1 flex flex-col justify-start items-center">
               <div className="flex items-start gap-[12px] mb-2">
                 <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                <h3 className="text-2xl">Akashic Record Reading</h3>
+                <h3 className="text-2xl">
+                  ✨ Psychic Mediumship & Akashic Records Reading
+                </h3>
               </div>
               <p className="pl-6 text-[15px]">
-                Journey into your Akashic Records to explore two past lives
-                shaping your current path. Discover your soul's purpose,
-                spiritual gifts, key lessons, and receive guidance for your life
-                today. Includes the opportunity to connect with your spirit
-                guide or a loved one in spirit for heartfelt insight.
+                A personalised, in-depth session where we explore your energy,
+                messages from Spirit, and guidance from the Akashic Records.
+                Ideal for clarity on life direction, relationships, soul
+                purpose, and spiritual growth.
                 <br />
-                🌀 Zoom (MYR 300) – 1 hour live session
+                💫 1 hour via Zoom – MYR350 / ~AUD130
                 <br />
-                📩 Email (MYR 250) – Written reading, up to 5 questions
+                ➕ Extra 30 mins – MYR175 / ~AUD65
                 <br />
-                🔮 Zoom + Email (MYR 400) – Live session + written summary
+                ➕ Extra 1 hour – MYR350 / ~AUD130
                 <br />
-                Optional Zoom Add-On Time:
-                <br />
-                ➕ 30 mins – Additional RM150
-                <br />➕ 1 hour – Additional RM300
+                📝 Email Write-Up Add-On – MYR200 / ~AUD75
               </p>
             </div>
 
@@ -80,57 +78,16 @@ const Readings = () => {
             <div className="flex-1 flex flex-col justify-start items-center">
               <div className="flex items-start gap-[12px] mb-2">
                 <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                <h3 className="text-2xl">Psychic Mediumship Reading</h3>
+                <h3 className="text-2xl">
+                  ✨ 1 Question Reading – MYR60 / ~AUD22
+                </h3>
               </div>
               <p className="pl-6 text-[15px]">
-                Receive intuitive insights and loving messages from spirit. This
-                reading supports your path forward with clarity, connection, and
-                reassurance. Includes the opportunity to connect with your
-                spirit guide or a loved one in spirit for heartfelt insight.
-                This reading does not include past life insights.
+                A focused reading for when you have one specific question.
+                Delivered directly to your email so you can revisit it anytime.
                 <br />
-                🌀 Zoom (MYR 250) – 1-hour live session
-                <br />
-                📩 Email (MYR 150) – Written reading, up to 5 questions
-                <br />
-                🔮 Zoom + Email (MYR 350) – Live session + email summary
-                <br />
-                Optional Zoom Add-On Time:
-                <br />
-                ➕ 30 mins – Additional RM125
-                <br />➕ 1 hour – Additional RM250
-              </p>
-            </div>
-
-            {/* Left Column Items */}
-            <div className="flex-1 flex flex-col justify-start items-center">
-              <div className="flex items-start gap-[12px] mb-2">
-                <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                <h3 className="text-2xl">Short Readings</h3>
-              </div>
-              <p className="pl-6 text-[15px]">
-                Send in 1 or 3 specific questions and receive a detailed,
-                intuitive response straight to your inbox. With your permission,
-                I can access your Akashic Records for deeper soul-level
-                guidance.
-                <br />✨ 1 Question – MYR 40
-                <br />✨ 3 Questions – MYR 100
-              </p>
-            </div>
-
-            {/* Right Column Items */}
-            <div className="flex-1 flex flex-col justify-start items-center">
-              <div className="flex items-start gap-[12px] mb-2">
-                <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                <h3 className="text-2xl">Psychic Parties</h3>
-              </div>
-              <p className="pl-6 text-[15px]">
-                Add a magical touch to your special event—perfect for birthdays,
-                bridal showers, or soulful girls' nights in! Options include
-                Tarot and/or Oracle Card Readings, Group Energy Readings, and
-                Mini 1-on-1 Readings for Guests.
-                <br />✨ Available virtually or in person (location dependent)
-                <br />✨ Custom pricing based on group size & format
+                *Please note daily exchange rates may change. You will be
+                charged in MYR.
               </p>
             </div>
           </div>
@@ -159,23 +116,6 @@ const Readings = () => {
               style={{ borderRadius: "0.5rem" }}
             />
           </motion.div>
-
-          {/* Candle Cord Cutting Ritual text for mobile */}
-          <div className="mt-4 text-center px-4 max-w-[300px]">
-            <div className="flex items-start gap-[12px] mb-2 justify-center">
-              <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-              <h3 className="text-2xl">Candle Cord Cutting Ritual</h3>
-            </div>
-            <p className="pl-6 text-[15px]">
-              This ritual helps you release emotional ties, past relationships,
-              and energetic attachments that no longer serve your highest good.
-              It creates space for clarity, freedom, and healing. No need to be
-              present — this is done remotely with deep care and intention.
-              <br />
-              🕯 Remote Ritual (MYR 100) – Personalised candle cord cutting +
-              written summary with insights, photos & video
-            </p>
-          </div>
         </div>
 
         {/* Mobile: Second Book a Reading button at the bottom */}
@@ -212,25 +152,23 @@ const Readings = () => {
               <div className="flex-1 flex flex-col justify-start items-start">
                 <div className="flex items-start gap-[12px] mb-2">
                   <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl">Akashic Record Reading</h3>
+                  <h3 className="text-2xl">
+                    ✨ Psychic Mediumship & Akashic Records Reading
+                  </h3>
                 </div>
                 <p className="pl-6 text-[15px]">
-                  Journey into your Akashic Records to explore two past lives
-                  shaping your current path. Discover your soul's purpose,
-                  spiritual gifts, key lessons, and receive guidance for your
-                  life today. Includes the opportunity to connect with your
-                  spirit guide or a loved one in spirit for heartfelt insight.
+                  A personalised, in-depth session where we explore your energy,
+                  messages from Spirit, and guidance from the Akashic Records.
+                  Ideal for clarity on life direction, relationships, soul
+                  purpose, and spiritual growth.
                   <br />
-                  🌀 Zoom (MYR 300) – 1 hour live session
+                  💫 1 hour via Zoom – MYR350 / ~AUD130
                   <br />
-                  📩 Email (MYR 250) – Written reading, up to 5 questions
+                  ➕ Extra 30 mins – MYR175 / ~AUD65
                   <br />
-                  🔮 Zoom + Email (MYR 400) – Live session + written summary
+                  ➕ Extra 1 hour – MYR350 / ~AUD130
                   <br />
-                  Optional Zoom Add-On Time:
-                  <br />
-                  ➕ 30 mins – Additional RM150
-                  <br />➕ 1 hour – Additional RM300
+                  📝 Email Write-Up Add-On – MYR200 / ~AUD75
                 </p>
               </div>
 
@@ -238,58 +176,21 @@ const Readings = () => {
               <div className="flex-1 flex flex-col justify-start items-start">
                 <div className="flex items-start gap-[12px] mb-2">
                   <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl">Psychic Mediumship Reading</h3>
+                  <h3 className="text-2xl">
+                    ✨ 1 Question Reading – MYR60 / ~AUD22
+                  </h3>
                 </div>
                 <p className="pl-6 text-[15px]">
-                  Receive intuitive insights and loving messages from spirit.
-                  This reading supports your path forward with clarity,
-                  connection, and reassurance. Includes the opportunity to
-                  connect with your spirit guide or a loved one in spirit for
-                  heartfelt insight. This reading does not include past life
-                  insights.
+                  A focused reading for when you have one specific question.
+                  Delivered directly to your email so you can revisit it
+                  anytime.
                   <br />
-                  🌀 Zoom (MYR 250) – 1 hour live session
+                  A focused reading for when you have one specific question.
+                  Delivered directly to your email so you can revisit it
+                  anytime.
                   <br />
-                  📩 Email (MYR 150) – Written reading, up to 5 questions
-                  <br />
-                  🔮 Zoom + Email (MYR 350) – Live session + email summary
-                  <br />
-                  Optional Zoom Add-On Time:
-                  <br />
-                  ➕ 30 mins – Additional RM125
-                  <br />➕ 1 hour – Additional RM250
-                </p>
-              </div>
-
-              {/* Left Column Items */}
-              <div className="flex-1 flex flex-col justify-start items-start">
-                <div className="flex items-start gap-[12px] mb-2">
-                  <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl">Short Readings</h3>
-                </div>
-                <p className="pl-6 text-[15px]">
-                  Send in 1 or 3 specific questions and receive a detailed,
-                  intuitive response straight to your inbox. With your
-                  permission, I can access your Akashic Records for deeper
-                  soul-level guidance.
-                  <br />✨ 1 Question – MYR 40
-                  <br />✨ 3 Questions – MYR 100
-                </p>
-              </div>
-
-              {/* Right Column Items - Moved down to align with Short Readings */}
-              <div className="flex-1 flex flex-col justify-start items-start">
-                <div className="flex items-start gap-[12px] mb-2">
-                  <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                  <h3 className="text-2xl">Psychic Parties</h3>
-                </div>
-                <p className="pl-6 text-[15px]">
-                  Add a magical touch to your special event—perfect for
-                  birthdays, bridal showers, or soulful girls' nights in!
-                  Options include Tarot and/or Oracle Card Readings, Group
-                  Energy Readings, and Mini 1-on-1 Readings for Guests.
-                  <br />✨ Available virtually or in person (location dependent)
-                  <br />✨ Custom pricing based on group size & format
+                  *Please note daily exchange rates may change. You will be
+                  charged in MYR.
                 </p>
               </div>
             </div>
@@ -318,24 +219,6 @@ const Readings = () => {
                 style={{ borderRadius: "0.5rem" }}
               />
             </motion.div>
-
-            {/* Candle Cord Cutting Ritual text for desktop */}
-            <div className="mt-4 text-center px-4 max-w-[384px]">
-              <div className="flex items-start gap-[12px] mb-2 justify-center">
-                <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
-                <h3 className="text-2xl">Candle Cord Cutting Ritual</h3>
-              </div>
-              <p className="pl-6 text-[15px]">
-                This ritual helps you release emotional ties, past
-                relationships, and energetic attachments that no longer serve
-                your highest good. It creates space for clarity, freedom, and
-                healing. No need to be present — this is done remotely with deep
-                care and intention.
-                <br />
-                🕯 Remote Ritual (MYR 100) – Personalised candle cord cutting +
-                written summary with insights, photos & video
-              </p>
-            </div>
 
             {/* Button below desktop image */}
             <button className="btn mt-4" onClick={handleDiscoverMoreClick}>

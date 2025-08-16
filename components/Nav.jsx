@@ -25,7 +25,7 @@ const links = [
   },
   {
   href: "/courses&workshops",
-  name: "Courses & Workshops",
+  name: "Courses & Coaching",
   },
   {
     href: "/contact",
