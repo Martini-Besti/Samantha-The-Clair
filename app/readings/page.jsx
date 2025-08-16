@@ -55,7 +55,7 @@ const Readings = () => {
               <div className="flex items-start gap-[12px] mb-2">
                 <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
                 <h3 className="text-2xl">
-                  ✨ Psychic Mediumship & Akashic Records Reading
+                  Psychic Mediumship & Akashic Records Reading
                 </h3>
               </div>
               <p className="pl-6 text-[15px]">
@@ -79,17 +79,18 @@ const Readings = () => {
               <div className="flex items-start gap-[12px] mb-2">
                 <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
                 <h3 className="text-2xl">
-                  ✨ 1 Question Reading – MYR60 / ~AUD22
+                  1 Question Reading – MYR60 / ~AUD22
                 </h3>
               </div>
               <p className="pl-6 text-[15px]">
                 A focused reading for when you have one specific question.
                 Delivered directly to your email so you can revisit it anytime.
-                <br />
-                *Please note daily exchange rates may change. You will be
-                charged in MYR.
               </p>
             </div>
+            <p className="text-[14px] text-gray-500">
+              *Please note daily exchange rates may change. You will be charged
+              in MYR.
+            </p>
           </div>
         </div>
 
@@ -153,9 +154,10 @@ const Readings = () => {
                 <div className="flex items-start gap-[12px] mb-2">
                   <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
                   <h3 className="text-2xl">
-                    ✨ Psychic Mediumship & Akashic Records Reading
+                    Psychic Mediumship & Akashic Records Reading
                   </h3>
                 </div>
+
                 <p className="pl-6 text-[15px]">
                   A personalised, in-depth session where we explore your energy,
                   messages from Spirit, and guidance from the Akashic Records.
@@ -177,7 +179,7 @@ const Readings = () => {
                 <div className="flex items-start gap-[12px] mb-2">
                   <div className="min-w-[14px] h-[14px] mt-[8px] bg-accent rounded-tl-[28px] rounded-bl-[28px] rounded-br-[22px] rounded-tr-[4px]"></div>
                   <h3 className="text-2xl">
-                    ✨ 1 Question Reading – MYR60 / ~AUD22
+                    1 Question Reading – MYR60 / ~AUD22
                   </h3>
                 </div>
                 <p className="pl-6 text-[15px]">
@@ -189,10 +191,12 @@ const Readings = () => {
                   Delivered directly to your email so you can revisit it
                   anytime.
                   <br />
-                  *Please note daily exchange rates may change. You will be
-                  charged in MYR.
                 </p>
               </div>
+              <p className="text-[14px] text-gray-500">
+                *Please note daily exchange rates may change. You will be
+                charged in MYR.
+              </p>
             </div>
           </motion.div>
 
